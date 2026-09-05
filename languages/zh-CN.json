@@ -1,0 +1,41 @@
+{
+  "WANGWASD": {
+    "Settings": {
+      "Enabled": {
+        "Name": "启用非战斗 WASD 限制",
+        "Hint": "开启后，玩家在非战斗时不能用鼠标拖拽/点选移动 Token，只能用 WASD 或方向键。"
+      },
+      "AllowInCombat": {
+        "Name": "战斗中解除限制",
+        "Hint": "战斗开始（已开始回合）后允许玩家用鼠标正常移动；战斗结束后重新限制。"
+      },
+      "NotifyBlocked": {
+        "Name": "拦截拖拽时提示",
+        "Hint": "玩家尝试用鼠标移动被拦截时弹出提示。"
+      },
+      "ShowHint": {
+        "Name": "显示角落提示",
+        "Hint": "非战斗且限制生效时，在画面角落显示「WASD 移动」提示。"
+      },
+      "StepDiagonals": {
+        "Name": "允许对角线（组合键）",
+        "Hint": "按住两个方向键（如 W+D）可斜向移动一格。"
+      }
+    },
+    "Key": {
+      "MoveNorth": "WASD：向上移动",
+      "MoveSouth": "WASD：向下移动",
+      "MoveWest": "WASD：向左移动",
+      "MoveEast": "WASD：向右移动"
+    },
+    "Notify": {
+      "Blocked": "非战斗中请用 WASD / 方向键移动。开战后方可用鼠标拖拽。",
+      "CombatOpen": "战斗开始：已允许鼠标移动。",
+      "CombatClosed": "战斗结束：已恢复 WASD 限制。"
+    },
+    "Hud": {
+      "Restricted": "探索中 · 仅 WASD 移动",
+      "CombatFree": "战斗中 · 可鼠标移动"
+    }
+  }
+}

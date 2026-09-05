@@ -1,0 +1,41 @@
+{
+  "WANGWASD": {
+    "Settings": {
+      "Enabled": {
+        "Name": "Enable exploration WASD lock",
+        "Hint": "When enabled, players cannot drag/click-move tokens outside combat; use WASD or arrow keys instead."
+      },
+      "AllowInCombat": {
+        "Name": "Lift restriction in combat",
+        "Hint": "Once combat has started, players may move tokens with the mouse again. Restriction returns when combat ends."
+      },
+      "NotifyBlocked": {
+        "Name": "Notify when drag is blocked",
+        "Hint": "Show a notification if a player tries to drag a token while restricted."
+      },
+      "ShowHint": {
+        "Name": "Show corner hint",
+        "Hint": "Show a small on-screen reminder while the WASD lock is active."
+      },
+      "StepDiagonals": {
+        "Name": "Allow diagonals (chords)",
+        "Hint": "Holding two directions (e.g. W+D) moves one diagonal step."
+      }
+    },
+    "Key": {
+      "MoveNorth": "WASD: Move Up",
+      "MoveSouth": "WASD: Move Down",
+      "MoveWest": "WASD: Move Left",
+      "MoveEast": "WASD: Move Right"
+    },
+    "Notify": {
+      "Blocked": "Outside combat, move with WASD / arrow keys. Mouse dragging unlocks when combat starts.",
+      "CombatOpen": "Combat started: mouse movement enabled.",
+      "CombatClosed": "Combat ended: WASD-only movement restored."
+    },
+    "Hud": {
+      "Restricted": "Exploration · WASD only",
+      "CombatFree": "Combat · mouse OK"
+    }
+  }
+}

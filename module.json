@@ -1,0 +1,37 @@
+{
+  "id": "wang-wasd-move",
+  "title": "Wang WASD Move — 非战斗仅键盘移动",
+  "description": "<p>限制玩家在非战斗时只能用 <strong>WASD / 方向键</strong> 移动 Token，禁止鼠标拖拽与点选位移。进入战斗后自动解除限制。GM 不受影响。</p>",
+  "version": "1.0.0",
+  "authors": [{ "name": "Wang" }],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": ["scripts/main.mjs"],
+  "styles": ["styles/wasd-move.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "zh-CN",
+      "name": "简体中文",
+      "path": "languages/zh-CN.json"
+    },
+    {
+      "lang": "cn",
+      "name": "简体中文 (cn)",
+      "path": "languages/zh-CN.json"
+    }
+  ],
+  "socket": false,
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "json", "mjs"],
+      "paths": ["scripts", "styles", "languages"]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+#wang-wasd-hint {
+  position: fixed;
+  left: 12px;
+  bottom: 72px;
+  z-index: 70;
+  pointer-events: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #f2efe6;
+  background: rgba(18, 16, 14, 0.72);
+  border: 1px solid rgba(232, 220, 190, 0.28);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#wang-wasd-hint.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#wang-wasd-hint.combat {
+  color: #d8f0d4;
+  border-color: rgba(140, 200, 130, 0.35);
+}
