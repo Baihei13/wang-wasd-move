@@ -4,6 +4,10 @@
   "description": "<p>限制玩家在非战斗时只能用 <strong>WASD / 方向键</strong> 移动 Token，禁止鼠标拖拽与点选位移。进入战斗后自动解除限制。GM 不受影响。</p>",
   "version": "1.0.0",
   "authors": [{ "name": "Wang" }],
+  "url": "https://github.com/Baihei13/wang-wasd-move",
+  "manifest": "https://raw.githubusercontent.com/Baihei13/wang-wasd-move/master/module.json",
+  "download": "https://github.com/Baihei13/wang-wasd-move/archive/refs/heads/master.zip",
+  "bugs": "https://github.com/Baihei13/wang-wasd-move/issues",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
